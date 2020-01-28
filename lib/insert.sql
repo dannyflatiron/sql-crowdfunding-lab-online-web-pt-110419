@@ -22,7 +22,7 @@ INSERT INTO users VALUES (19, "Kimberly", 76);
 INSERT INTO users VALUES (20, "Steve", 89);
 
 --------PROJECTS TABLE-----------
-CREATE TABLE projects (id INTEGER PRIMARY KEY, title TEXT, category TEXT, funding_goal TEXT, start_date INTEGER, end_date INTEGER);
+-- CREATE TABLE projects (id INTEGER PRIMARY KEY, title TEXT, category TEXT, funding_goal TEXT, start_date INTEGER, end_date INTEGER);
 
 INSERT INTO projects VALUES (1, "Project 1", "Geology", "$1,000", 2, 4);
 INSERT INTO projects VALUES (2, "Project 2", "Zoology", "$2,000", 3, 5);
