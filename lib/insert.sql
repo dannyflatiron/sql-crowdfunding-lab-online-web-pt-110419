@@ -1,3 +1,5 @@
+--------USERS TABLE-----------
+
 INSERT INTO users VALUES (1, "Dan", 1);
 INSERT INTO users VALUES (2, "Fred", 2);
 INSERT INTO users VALUES (3, "Sam", 3);
@@ -18,3 +20,17 @@ INSERT INTO users VALUES (17, "Jason", 54);
 INSERT INTO users VALUES (18, "Tommy", 65);
 INSERT INTO users VALUES (19, "Kimberly", 76);
 INSERT INTO users VALUES (20, "Steve", 89);
+
+--------PROJECTS TABLE-----------
+CREATE TABLE projects (id INTEGER PRIMARY KEY, title TEXT, category TEXT, funding_goal TEXT, start_date INTEGER, end_date INTEGER);
+
+INSERT INTO projects VALUES (1, "Project 1", "Geology", "$1,000", 2, 4);
+INSERT INTO projects VALUES (2, "Project 2", "Geology", "$1,000", 2, 4);
+INSERT INTO projects VALUES (3, "Project 3", "Geology", "$1,000", 2, 4);
+INSERT INTO projects VALUES (4, "Project 4", "Geology", "$1,000", 2, 4);
+INSERT INTO projects VALUES (5, "Project 5", "Geology", "$1,000", 2, 4);
+INSERT INTO projects VALUES (6, "Project 6", "Geology", "$1,000", 2, 4);
+INSERT INTO projects VALUES (7, "Project 7", "Geology", "$1,000", 2, 4);
+INSERT INTO projects VALUES (8, "Project 8", "Geology", "$1,000", 2, 4);
+INSERT INTO projects VALUES (9, "Project 9", "Geology", "$1,000", 2, 4);
+INSERT INTO projects VALUES (10, "Project 10", "Geology", "$1,000", 2, 4);
