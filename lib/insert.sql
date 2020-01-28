@@ -22,7 +22,6 @@ INSERT INTO users VALUES (19, "Kimberly", 76);
 INSERT INTO users VALUES (20, "Steve", 89);
 
 --------PROJECTS TABLE-----------
--- CREATE TABLE projects (id INTEGER PRIMARY KEY, title TEXT, category TEXT, funding_goal TEXT, start_date INTEGER, end_date INTEGER);
 
 INSERT INTO projects VALUES (1, "Project 1", "Geology", "$1,000", 2, 4);
 INSERT INTO projects VALUES (2, "Project 2", "Zoology", "$2,000", 3, 5);
@@ -34,3 +33,36 @@ INSERT INTO projects VALUES (7, "Project 7", "Physics", "$7,000", 20, 28);
 INSERT INTO projects VALUES (8, "Project 8", "Astronomy", "$8,000", 2, 24);
 INSERT INTO projects VALUES (9, "Project 9", "Software Engineering", "$9,000", 22, 24);
 INSERT INTO projects VALUES (10, "Project 10", "Cybersecurity", "$10,000", 2, 14);
+
+--------PLEDGES TABLE-----------
+-- CREATE TABLE pledgeS (id INTEGER PRIMARY KEY, amount INTEGER, user_id INTEGER, project_id INTEGER);
+INSERT INTO pledges VALUES (1, 1000, 1, 1);
+INSERT INTO pledges VALUES (2, 2000, 1, 1);
+INSERT INTO pledges VALUES (3, 3000, 1, 1);
+INSERT INTO pledges VALUES (4, 4000, 1, 1);
+INSERT INTO pledges VALUES (5, 5000, 1, 1);
+INSERT INTO pledges VALUES (6, 6000, 1, 1);
+INSERT INTO pledges VALUES (7, 17000, 1, 1);
+INSERT INTO pledges VALUES (8, 7000, 1, 1);
+INSERT INTO pledges VALUES (9, 8000, 1, 1);
+INSERT INTO pledges VALUES (10, 91000, 1, 1);
+INSERT INTO pledges VALUES (11, 11000, 1, 1);
+INSERT INTO pledges VALUES (12, 10200, 1, 1);
+INSERT INTO pledges VALUES (13, 10030, 1, 1);
+INSERT INTO pledges VALUES (14, 21000, 1, 1);
+INSERT INTO pledges VALUES (15, 13000, 1, 1);
+INSERT INTO pledges VALUES (16, 10400, 1, 1);
+INSERT INTO pledges VALUES (17, 10050, 1, 1);
+INSERT INTO pledges VALUES (18, 10006, 1, 1);
+INSERT INTO pledges VALUES (19, 105500, 1, 1);
+INSERT INTO pledges VALUES (20, 133000, 1, 1);
+INSERT INTO pledges VALUES (21, 100770, 1, 1);
+INSERT INTO pledges VALUES (22, 11111000, 1, 1);
+INSERT INTO pledges VALUES (23, 100990, 1, 1);
+INSERT INTO pledges VALUES (24, 10034350, 1, 1);
+INSERT INTO pledges VALUES (25, 1002345230, 1, 1);
+INSERT INTO pledges VALUES (26, 100000000, 1, 1);
+INSERT INTO pledges VALUES (27, 40, 1, 1);
+INSERT INTO pledges VALUES (28, 9000, 1, 1);
+INSERT INTO pledges VALUES (29, 10000000, 1, 1);
+INSERT INTO pledges VALUES (30, 100034435, 1, 1);
